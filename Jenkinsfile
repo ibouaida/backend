@@ -14,13 +14,13 @@ pipeline {
             }
         }
 
-        // stage('Docker build image') {
-        //     steps {
-        //         script {
-        //             sh 'docker build -t uadb:v1.0.3 .'
-        //         }
-        //     }
-        // }
+        stage('Docker build image') {
+            steps {
+                script {
+                    sh 'docker build -t backend:v1.0.0 .'
+                }
+            }
+        }
 
         // stage('Docker tag image') {
         //     steps {
