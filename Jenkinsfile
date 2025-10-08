@@ -30,12 +30,12 @@ pipeline {
             }
         }
 
-        // stage('Docker push image') {
-        //     steps {
-        //         script {
-        //             sh 'docker push malicksn/uadb:v1.0.3'
-        //         }
-        //     }
-        // }
+        stage('Docker push image') {
+            steps {
+                script {
+                    sh 'docker push ibou1984/backend:v1.0.0'
+                }
+            }
+        }
     }
 }
