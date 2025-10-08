@@ -22,13 +22,13 @@ pipeline {
             }
         }
 
-        // stage('Docker tag image') {
-        //     steps {
-        //         script {
-        //             sh 'docker tag uadb:v1.0.3 malicksn/uadb:v1.0.3'
-        //         }
-        //     }
-        // }
+        stage('Docker tag image') {
+            steps {
+                script {
+                    sh 'docker tag backend:v1.0.0 ibou1984/backend:v1.0.0'
+                }
+            }
+        }
 
         // stage('Docker push image') {
         //     steps {
