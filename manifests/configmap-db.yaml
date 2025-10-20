@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: ml-project
+  name: mysql-configmap
+data:
+  MYSQL_DATABASE: db_ml_project

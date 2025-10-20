@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: ml-project
+  name: backend-configmap
+data:
+  MYSQL_DATABASE: db_ml_project
+  FLASK_ENV: development
