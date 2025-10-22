@@ -17,8 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ibou1984/backend:v1.0.0
-        ports:
+        image: https://github.com/ibouaida/backend.git
         - containerPort: 5000
         env:
         - name: MYSQL_HOST
