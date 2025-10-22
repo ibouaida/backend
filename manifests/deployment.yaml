@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: https://github.com/ibouaida/backend.git
+        image: 
         ports:
         - containerPort: 5000
         env:
