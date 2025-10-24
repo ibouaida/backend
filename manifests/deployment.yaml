@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 
+        image: ibou1984/backend:v1.0.0
         ports:
         - containerPort: 5000
         env:
